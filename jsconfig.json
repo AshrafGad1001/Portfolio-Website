@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true,
+    "lib": ["es6", "dom", "es2017"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
