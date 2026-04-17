@@ -4,6 +4,9 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+/*------------------------------
+Reset Some Element
+------------------------------*/
 
 * {
   margin: 0;
@@ -16,8 +19,25 @@ html {
   box-sizing: inherit;
 }
 
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+/*------------------------------
+Reset Some Element
+------------------------------*/
 :root {
-  --primary: #000;
+  --primary-color: #000;
+  --secondary-color: rgb(24, 24, 27);
+  --border-color: rgba(63, 63, 70, 0.4);
+
+  --title-color: rgb(244, 245, 245);
+  --subtitle-color: rgb(161, 161, 170);
+
+  --bg-header:rgb( 39,39,42)
 }
 
 .light {
@@ -25,12 +45,34 @@ html {
 }
 
 body {
-  background-color: var(--primary);
-  color: wheat;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .container {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid var(--border-color);
+  background-color: var(--secondary-color);
 }
+
+/*------------------------------
+Main Classes Can Be Used Again
+------------------------------*/
+
+.section-separator {
+  border-bottom: 1.5px solid var(--border-color);
+  margin: 20px 0;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.flex {
+  display: flex;
+}
+/*------------------------------
+End
+------------------------------*/

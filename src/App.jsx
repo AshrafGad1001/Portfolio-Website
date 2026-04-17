@@ -14,9 +14,13 @@ function App() {
     <div className="container">
 
       <Header />
+      <div className='section-separator'></div>
       <Hero />
+      <div className='section-separator'></div>
       <Main />
+      <div className='section-separator'></div>
       <Contact />
+      <div className='section-separator'></div>
       <Footer />
 
     </div>
