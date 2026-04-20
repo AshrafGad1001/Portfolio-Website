@@ -62,7 +62,7 @@ header .fixed {
 }
 header .fixed ul.pop-up {
   animation: pop-up-animation 0.5s 1;
-  width: 85%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;

@@ -1,0 +1,64 @@
+section.hero {
+  margin-top: 2rem;
+}
+
+section.hero .hero-info {
+  flex-grow: 1;
+}
+
+section.hero .avatar {
+  width: 150px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid rgb(156, 102, 1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: -15px;
+  box-shadow: 1px 1px 30px rgba(128, 128, 128, 0.475) inset;
+}
+
+section.hero .parent-avatar.flex {
+  align-items: end;
+}
+
+section.hero .icon-verified {
+  color: var(--hover-blue);
+  font-size: 1.1rem;
+}
+
+/*
+-------info
+*/
+
+section.hero h1.title {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 24px 0;
+  color: var(--title-color);
+}
+section.hero p.sub-title {
+  letter-spacing: 1.1px;
+  line-height: 1rem;
+  color: var(--subtitle-color);
+  margin-bottom: 2rem;
+}
+
+section.hero .icons {
+  gap: 12px;
+}
+section.hero .icons .icon {
+  font-size: 1.3rem;
+  color: var(--subtitle-color);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.1s;
+}
+section.hero .icons .icon:hover {
+  font-size: 1.4rem;
+  color: var(--icon-hover);
+  cursor: pointer;
+}

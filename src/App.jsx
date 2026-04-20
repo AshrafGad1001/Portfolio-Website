@@ -14,7 +14,6 @@ function App() {
     <div className="container">
 
       <Header />
-      <div className='section-separator'></div>
       <Hero />
       <div className='section-separator'></div>
       <Main />
