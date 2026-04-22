@@ -48,6 +48,9 @@ header .fixed {
   left: 0; */
   inset: 0;
   background-color: rgba(40, 40, 50, 0.8);
+  z-index: 11;
+  border: 2px solid red;
+  backdrop-filter: blur(4px);
 }
 @keyframes pop-up-animation {
   0% {

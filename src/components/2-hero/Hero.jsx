@@ -29,7 +29,7 @@ const Hero = () => {
 
 
 
-            <div className='hero-img'>img</div>
+            <div className='hero-img'></div>
 
 
         </section>
