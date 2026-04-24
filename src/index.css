@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
   letter-spacing: 1px;
 }
+
 /*------------------------------
 Reset Some Element
 ------------------------------*/
@@ -23,6 +24,7 @@ Reset Some Element
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: initial;
@@ -32,15 +34,19 @@ a {
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
 }
+
 button {
   all: unset;
 }
+
 button:hover {
   cursor: pointer;
 }
+
 button:active {
   scale: 0.9;
 }
+
 /*------------------------------
 Reset Some Element
 ------------------------------*/
@@ -75,6 +81,42 @@ body {
   padding: 0 2rem;
 }
 
+
+
+/*Custom Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--hover-blue);
+  border-radius: 10px;
+  border: 2px solid #1e1e2e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #857dff;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--hover-blue) var(--bg-header);
+}
+
+/* ------------------------------------------ */
+
+
+
+
+
 /*------------------------------
 Main Classes Can Be Used Again
 ------------------------------*/
@@ -91,6 +133,7 @@ Main Classes Can Be Used Again
 .flex {
   display: flex;
 }
+
 /*------------------------------
 End
 ------------------------------*/
@@ -111,3 +154,12 @@ media Query
     padding: 0 1rem;
   }
 }
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */

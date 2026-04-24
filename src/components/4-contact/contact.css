@@ -55,7 +55,7 @@ section.contact-us #message {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 1px 1px 3px rgba(45, 212, 191, 0.8);
+    box-shadow: 1px 1px 3px var(--hover-blue);
     transition: 0.2;
     -webkit-transition: 0.2;
     -moz-transition: 0.2;
@@ -71,14 +71,14 @@ section.contact-us #message {
 
 section.contact-us #email:focus,
 section.contact-us #message:focus {
-    border: 2px solid rgb(45, 212, 191);
-    box-shadow: 2px 2px 5px rgba(45, 212, 191, 0.8);
+    border: 2px solid var(--hover-blue);
+    box-shadow: 2px 2px 5px var(--hover-blue);
 }
 
 
 section.contact-us #email:hover,
 section.contact-us #message:hover {
-    border: 2px solid rgb(45, 212, 191);
+    border: 2px solid var(--hover-blue);
 }
 
 section.contact-us form .submit {
@@ -107,8 +107,8 @@ section.contact-us form .submit {
 
 section.contact-us form .submit:hover {
     scale: 0.95;
-    border: 2px solid rgb(45, 212, 191);
-    box-shadow: 2px 2px 5px rgba(45, 212, 191, 0.8);
+    border: 2px solid var(--hover-blue);
+    box-shadow: 2px 2px 5px var(--hover-blue);
 }
 
 @media (max-width:600px) {
