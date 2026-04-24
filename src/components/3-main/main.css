@@ -15,9 +15,9 @@ main .left-section {
 
 main .left-section button {
     width: 11rem;
+    font-size: 1.1rem;
     padding: 0.75rem;
     text-align: center;
-    font-size: 1.1rem;
     background-color: rgba(35, 35, 45, 1);
     opacity: 0.6;
     border-radius: 6px;
@@ -171,20 +171,39 @@ article.card .box .show-more:hover {
 
 
 
+@media (max-width:600px) {
+    main.flex {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    main .left-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    main .left-section button {
+        width: 7rem;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:1000px) {
+    main.flex {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    main .left-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    main .left-section button {
+        width: 7rem;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+}
