@@ -9,9 +9,10 @@ import Footer from "./components/5-footer/Footer";
 
 function App() {
 
+  
 
   return (
-    <div className="container">
+    <div className="container" id='top'>
 
       <Header />
       <Hero />
@@ -22,6 +23,10 @@ function App() {
       <div className='section-separator'></div>
       <Footer />
 
+
+      <a href="#top">
+        <button className='scroll-to-top  icon-keyboard_arrow_up'></button>
+      </a>
     </div>
   )
 }

@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import './main.css';
 
+
+
+
+
 const main = () => {
+
+
+    const [currentActive, setcurrentActive] = useState("all");
+
     return (
         <main className="flex">
 
@@ -8,11 +17,11 @@ const main = () => {
 
 
             <section className="left-section">
-                <button className='active'>All Projects</button>
-                <button>Pure HTML & CSS</button>
-                <button>JavaScript</button>
-                <button>React</button>
-                <button>Node JS - Express</button>
+                <button onClick={() => { setcurrentActive("all") }} className={currentActive === "all" ? "active" : " "}>All Projects</button>
+                <button onClick={() => { setcurrentActive("css") }} className={currentActive === "css" ? "active" : " "}>Pure HTML & CSS</button>
+                <button onClick={() => { setcurrentActive("js") }} className={currentActive === "js" ? "active" : " "} >JavaScript</button>
+                <button onClick={() => { setcurrentActive("react") }} className={currentActive === "react" ? "active" : " "} >React</button>
+                <button onClick={() => { setcurrentActive("nodejs") }} className={currentActive === "nodejs" ? "active" : " "} >Node JS - Express</button>
             </section>
 
 
